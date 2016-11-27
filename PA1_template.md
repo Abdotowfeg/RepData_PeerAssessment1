@@ -25,7 +25,7 @@ hist(x = stepsByDate$steps,
 box()
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![](figure/unnamed-chunk-2-1.png)
 
 The mean and median total number of steps taken per day:
 
@@ -57,7 +57,7 @@ plot(x = stepsByInterval$interval,
      main = "Average Number of Steps Taken by Interval")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](figure/unnamed-chunk-4-1.png)
 
 On average across all the days in the dataset, the 5-minute interval that contains the maximum number of steps is below:
 
@@ -110,7 +110,7 @@ hist(x = stepsByDateImputed$steps,
 box()
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![](figure/unnamed-chunk-8-1.png)
 
 The mean and median total number of steps taken per day in the revised dataset:
 
@@ -145,7 +145,7 @@ legend("right",
 box()
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![](figure/unnamed-chunk-10-1.png)
 
 Are there differences in activity patterns between weekdays and weekends?
 -------------------------------------------------------------------------
@@ -170,4 +170,4 @@ xyplot(steps ~ interval | day,
        main = "Average Number of Steps Taken by Interval and Type of Day")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![](figure/unnamed-chunk-11-1.png)
